@@ -1,6 +1,7 @@
 <!-- GitHub Push
     
-
+git remote add origin https://github.com/alexsjcho/Rock-Paper-Scissors-Game.git
+git push -u origin master
 
 -->
 <!DOCTYPE html>
@@ -17,10 +18,37 @@
     <link href="styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <header role="header"><h1>Rock Paper Scissors</h1></header>
     <main>
-      <section class="">
-        <div class="">Rock Paper Scissors</div>
-        <div class=""></div>
+      <section class="board">
+        <div id="user" class="badge">Users</div>
+        <div id="computer" class="badge">Computer</div>
+        <span id="user-score">0</span> : <span id="computer-score">0</span>
+      </section>
+
+      <section class="result">
+        <p>Paper covers rock. You Still Lose!</p>
+      </section>
+
+      <section class="selection">
+        <div id="r" class="choice">
+          <img
+            src="https://previews.123rf.com/images/julinzy/julinzy1310/julinzy131000173/23262897-hand-sign-of-rock-paper-scissors-game-isolated-vector-on-white-background.jpg"
+            alt="rock hand sign"
+          />
+        </div>
+        <div id="s" class="choice">
+          <img
+            src="https://previews.123rf.com/images/julinzy/julinzy1310/julinzy131000181/23262905-hand-sign-of-rock-paper-scissors-game-isolated-vector-on-white-background.jpg"
+            alt="scissor hand sign"
+          />
+        </div>
+        <div id="p" class="choice">
+          <img
+            src="https://previews.123rf.com/images/julinzy/julinzy1310/julinzy131000180/23262904-hand-sign-of-rock-paper-scissors-game-isolated-vector-on-white-background.jpg"
+            alt="paper-hand sign"
+          />
+        </div>
       </section>
     </main>
 

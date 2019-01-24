@@ -1,1 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
+
+.choice > img {
+  height: 64px;
+  width: 64px;
+  border-color: gray;
+  border-style: solid;
+}
+
+body {
+  background-color: #232526;
+  color: white;
+}
